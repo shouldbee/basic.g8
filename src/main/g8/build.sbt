@@ -13,4 +13,4 @@ libraryDependencies ++= Seq(
   "org.scalacheck" %% "scalacheck" % "1.11.3" % "test"
 )
 
-initialCommands := "import $organization$.$name;format="lower,word"$._"
+initialCommands := "import $organization$.$name$;format="lower,word"$._"
